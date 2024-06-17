@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+<!-- 1st todo start-->
+        <div class="inputBox">
+            <input id="getTodoInput" type="text" placeholder="Enter todo here"  class="">
+            <span class="crossIcon">x</span>
+        </div>
+<!-- 1st todo end-->
+        <button type="button" onclick="addTodo()">Add Todo</button>
+
+<!-- 2nd todo start-->
+        <ul ondblclick="makeInputEditable(event)" onclick="handleClick(event)" id="todoListContainer" class="todoList">
+            <!-- <li>
+                <div class="inputBox">
+                    <input type="text">
+                    <span class="crossIcon">x</span>
+                </div>
+            </li> -->
+        </ul>
+<!-- 2nd todo end-->
+    </div>
+</body>
+<script src="Todo.js"></script>
+<script src="index.js"></script>
+
+</html>

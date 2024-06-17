@@ -1,0 +1,10 @@
+1. input box "Enter todo here" is editable. Clicking "Add Todo" will add a Todo to the list.Empty todo is not allowed, Clicking the cross icon will clear the text.
+
+
+2. Alist of all the todos must be shown as a list, By default, the user cannot edit these todos unless he double click on the todo. On double - Clicking , it should become editable. When the user presses enter then the Todo must be Updated Clicking cross arrow will delete from the list
+
+3. if no todo is shown then sho text "No todos added"
+
+4. Upon reloading all the data must be retained, no data should be lost --- we can still see the data while refresh
+
+5. Add reqired validations on the filed accordingly.
